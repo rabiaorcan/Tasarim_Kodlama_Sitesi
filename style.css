@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;/*1 rem=10px*/
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/*bolum1*/
+#bolum1{
+    background-color: #25373d;
+    border-bottom: 10px solid lightcoral;
+    
+}
+.kapsayici{
+    width: 960px;
+    margin: 0 auto;
+}
+.ust{
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;/*flexin container özl*/
+    align-items: center;/*container içi elemanı ortalama*/
+    
+}
+#bolum .logo{
+    text-align: center;
+    color: #fff;
+}
+#bolum1 h1{
+    font-size: 3.5rem;
+    letter-spacing: .2rem;
+    margin-bottom: 0;
+}
+#bolum1 h1::first-letter{
+    color: lightcoral;
+}
+#bolum1 h1:hover::first-letter{
+    color: #fff;
+    background-color: lightcoral;
+    
+}
+#bolum1 h2 a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+#bolum1 .menu ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+  
+}
+#bolum1 .menu a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 0 1rem;
+    color: #fff;
+}
+#bolum1 .menu a:hover{
+    color: #FCB941;
+}
+/*bolum2*/
+#bolum2 .bolum2_1{
+    margin-top: 2rem;
+    border: solid 10px #25373d;
+   padding: 20px;
+    
+}
+#bolum2 .bolum2_1 img{
+    width: 100%;
+    display: block;
+}
+#bolum2 .bolum2_2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#bolum2 .bolum2_2 .kutu{
+    flex-basis: 290px;
+}
+#bolum2 .bolum2_2 h2{
+    font-size: 2rem;
+}
+#bolum2 .bolum2_2 p{
+    font-size: 1.6rem;
+}
+#bolum2 .bolum2_3{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#bolum2 .bolum2_3 h2{
+    font-size: 2rem;
+}
+#bolum2 .bolum2_3 p{
+    font-size: 1.6rem;
+}
+#bolum2 .bolum2_3 .gorsel{
+    flex-basis: 290px;
+    margin-top: 20px;
+}
+#bolum2 .cizgi{
+    border: dotted 2px lightcoral;
+}
+/*footer*/
+footer{
+    background-color: #25373d;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+footer .alt{
+    display: flex;
+    justify-content: center;
+}
+footer .alt .baglanti{
+    flex-grow: 1;
+}
+footer .alt .baglanti h2{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 40px;
+    color: burlywood;
+}
+footer .alt .baglanti ul li{
+   
+    padding-bottom: 5px;
+    border-bottom: solid 2px lightcoral;
+    list-style: none;
+}
+footer .alt .baglanti a{
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
